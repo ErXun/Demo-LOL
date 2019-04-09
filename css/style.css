@@ -1,0 +1,291 @@
+body,html {
+    height: 100%;
+    width: 100%;
+}
+/* header */
+header {
+    height: 100%;
+    width: 100%;
+    background: url("http://pic1.win4000.com/wallpaper/4/57a4391cd4c56.jpg")center center no-repeat;
+    /* background: url("http://img.zcool.cn/community/01fa735838415fa8012060c8df278c.jpg@3000w_1l_2o_100sh.jpg") center center no-repeat; */
+    background-size: cover;
+    min-width: 866px;
+}
+.header-top .logo{
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.header-top .topbar {
+    float: right;
+}
+.header-top li {
+    float: left;
+    text-align: center;
+}
+.header-top li a {
+    display: inline-block;
+    color: #fff;
+    padding: 12px 10px;
+    font-size: 16px;
+    border-radius: 4px; 
+    letter-spacing: 3px;
+}
+.header-top li a:hover {
+    color: #000;
+    background: #00dbfb;
+}
+header .intro {
+    text-align: center;
+    margin: 220px auto;
+}
+header .intro p {
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+header .intro h1 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+    color: #00dbfb;
+}
+header .intro a {
+    display: inline-block;
+    padding: 20px 40px;
+    letter-spacing: 2px;
+    color: #fff;
+    border-radius: 3px;
+    background:#565656;
+}
+header .intro a:hover {
+    background: #00dbfb;
+}
+
+/* main */
+    /* desc */
+section h1 {
+    background: #0c111a;
+    color: #00dbfb;
+    letter-spacing: 8px;
+    padding: 25px 0;  
+    text-align: center; 
+    margin: 0 auto;
+    width: 100%;
+    border: 3px solid #00dbfb;
+    border-radius: 5px;
+}
+.desc{
+    margin: 10px 0;
+    
+}
+.desc img {
+    display:inline-block;   
+    margin: 25px 80px;
+    width: 450px;
+    height: 350px;
+    text-align: left; 
+    border-radius: 10px;
+}
+.desc .desc-word {
+    display: inline-block;
+    width: 575px;
+    height: 300px;
+    margin: 0 0 60px 60px;
+    border: 2px solid #00dbfb;
+    border-radius: 5px;  
+}
+.desc .desc-word p {
+    text-indent: 2em;
+    float: left;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 10px;
+    color: #fff;
+}
+    /* city */
+.city li {
+    text-align: center;
+    float: left;
+    border: 1px solid #c89b3c;
+    margin: 20px;
+    border-image-slice: 1;
+    border-radius: 5px;
+    position: relative;
+}
+.city li img {
+    display: inline-block;
+    padding: 1px 1px;
+    width: 280px;
+    height: 160px;
+    opacity: .3;
+}
+.city .ico {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    opacity: 1;
+}
+.city li a {
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+}
+.city li:hover {
+    border:1px solid  #00dbfb;  
+}
+.city li:hover a {
+    color: #00dbfb;
+}
+.city li img:hover {
+    opacity: 1;
+}
+.city li:hover .ico {
+    display: none;
+}
+    /* hero */
+.hero li {
+    margin-top: 50px; 
+    position: relative;
+    margin-bottom: 70px;
+}
+.hero li:nth-child(odd) { 
+    padding-right: calc(50% - 90px) ;
+    text-align: right;
+}
+.hero li img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid #00dbfb;
+}
+.hero li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.hero li dl {
+    margin-top: 20px;
+    color: #fff; 
+    font-size: 16px;
+}
+.hero dl dt {
+    font-size: 26px;
+    color: #c89b3c;
+    padding: 2px 0 15px 0;
+}
+.hero li:nth-child(odd) img {
+    float: right;
+}
+.hero li:nth-child(odd) dl {
+    padding-right: 210px;
+}
+.hero li:nth-child(even) {
+    padding-left: calc(50% - 90px) ;
+    text-align: left;
+}
+.hero li:nth-child(even) dl {
+    padding-left: 210px;
+}
+.hero li:nth-child(even) img {
+    float: left;
+}
+.hero li::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    width:3px;
+    height: 70px;
+    top: 180px;
+    background: #00dbfb;
+}
+.hero li:last-child::before {
+    height: 0; 
+}
+    /* star */
+.star li {
+    float: left;
+    width: 30%;
+    margin: 50px 20px 40px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 219, 251, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+   
+}
+.star li img {
+    display: inline-block;
+    width: 390px;
+    height: 250px;
+    border: 1px solid #927345;
+}
+.star li h3 {
+    letter-spacing: 3px;
+    margin: -8px 0;
+    color: #927345;
+    padding: 5px 0;
+}
+.star li p {
+    border-top: 1px solid #927345;
+    padding: 8px 0;
+    border-bottom: 1px solid #927345;
+    margin-top: 7px; 
+    margin-bottom: 18px;
+}
+    /* contact */
+#contact {
+   background: url("http://www.3dmgame.com/uploads/allimg/140616/153_140616111737_1.jpg") center center no-repeat;
+   background-size: cover;
+   text-align: center;
+}
+#contact .message ul {
+    float: left;
+    width:500px; 
+    margin: 33px 0 0 125px;
+}
+#contact .message input {
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+    border-radius: 5px;
+    border: 1px solid#00dbfb;
+}
+#contact textarea{
+    float: right;
+    padding:10px;
+    border: 1px solid #00dbfb;
+    width: 587px; 
+    height: 299px;
+    margin: 63px 55px 0 0;
+    border-radius: 5px;
+}
+#contact a{
+   display: inline-block;
+   color: #fff;
+   font-size: 20px;
+   margin-bottom: 90px; 
+   padding: 10px 60px;
+   background:#00dbfb;
+   border-radius: 5px;
+   opacity: .8;
+}
+#contact a:hover{
+    background:#00dbfb;
+    opacity: 1;
+}
+/* footer */
+footer{
+    padding: 12px 0;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,36 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* common */
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    font: 16px/1.5em Arial;
+    color: #000;
+    background: #0c111a;
+    overflow-y:scroll;
+}
+.layout {
+    width: 1340px;
+    margin: 0 auto;
+}
+.iconfont {
+    font-size: 40px !important;
+    color: #fff;
+    margin: 0px 20px;
+}
+.iconfont:hover {
+    color: #00dbfb;
+}
